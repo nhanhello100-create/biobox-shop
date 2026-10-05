@@ -1,0 +1,9 @@
+{
+  "name": "biobox-connect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BIOBOX customer shop + seller dashboard with orders and chat",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=18"}
+}

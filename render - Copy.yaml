@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: biobox-connect
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SELLER_PIN
+        sync: false
